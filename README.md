@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage Efteling 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste pagina op de webiste">
+  <img src="readme-images/homepage.png" width="375px" alt="eerste pagina op de webiste">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Vacatures page
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="waar mensen hun baan kunnen vinden bij de efeling">
+  <img src="readme-images/Vacatures.png" width="375px" alt="waar mensen hun baan kunnen vinden bij de efeling">
  
 </details>
 
@@ -68,13 +68,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/homepage.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/Vacatures.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/menu.png" width="375px" alt="menu van alle paginas van de website">
+  <img src="readme-images/" width="375px" alt="menu van alle paginas van de website">
 
 </details>
 
