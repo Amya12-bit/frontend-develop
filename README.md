@@ -67,14 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/" width="375px" alt="menu van alle paginas van de website">
+  <p> Hier is de link van mijn breakdown schetsen. https://miro.com/app/board/uXjVJKqBPkA=/?share_link_id=275197386321</p>
 
 </details>
 
