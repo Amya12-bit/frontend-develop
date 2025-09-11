@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body {
+	background-color: #FAF3EB;
+	font-family: Arial, sans-serif;
+	color: white;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 2em;
+	color: #A9192B;
+	font-family: 'Nosifer', serif;
+	font-size: 2em;
+	margin: 0;
+}
+
+img {
+	height: 2em;
+}
+
+/**************/
+/* DE HEADER */
+/**************/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	padding: 1em;
+	z-index: 1000;
+}
+
+/* Logo styling */
+header > a:nth-of-type(1) {
+	display: flex;
+	align-items: center;
+}
+
+header > a:nth-of-type(1) img {
+	height: 3em;
+}
+
+/**********************/
+/* HAMBURGER BUTTON */
+/**********************/
+header > button:nth-of-type(1) {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5em;
+	color: #A9192B;
+	font-weight: bold;
+	z-index: 1001;
+	position: relative;
+}
+
+header > button:nth-of-type(1) img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+/************/
+/* HET MENU */
+/************/
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #A9192B;
+	transform: translateX(100%);
+	transition: transform 0.3s ease-in-out;
+	z-index: 1000;
+	overflow-y: auto;
+}
+
+nav.toonMenu {
+	transform: translateX(0);
+}
+
+/* Close button */
+nav > button:nth-of-type(1) {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	color: white;
+	font-weight: bold;
+	padding: 0.5em;
+	z-index: 1001;
+}
+
+nav > button:nth-of-type(1) img {
+	width: 1.5em;
+	height: 1.5em;
+	filter: invert(1);
+}
+
+/* Menu content */
+nav ul {
+	list-style: none;
+	padding: 4em 2em 2em;
+	margin: 0;
+}
+
+nav ul h1 {
+	color: white;
+	font-size: 1.5em;
+	margin: 2em 0 1em 0;
+	padding: 0;
+	border-bottom: 2px solid white;
+	padding-bottom: 0.5em;
+}
+
+nav ul h1:nth-of-type(1) {
+	margin-top: 1em;
+}
+
+nav li {
+	margin: 1em 0;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.1em;
+	display: block;
+	padding: 0.5em 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	transition: color 0.3s;
+}
+
+nav li a:hover {
+	color: #FAF3EB;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding-left: 1em;
+}
+
+/* Search button */
+header > button:nth-of-type(2) {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5em;
+}
+
+header > button:nth-of-type(2) img {
+	width: 2em;
+	height: 2em;
+}
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 38em breed is */
+/****************************************************************/
+@media (min-width: 38em) {
+	header > button:nth-of-type(1) {
+		display: none;
+	}
+	
+	nav {
+		position: static;
+		transform: none;
+		width: auto;
+		height: auto;
+		background: none;
+		overflow: visible;
+	}
+	
+	nav > button:nth-of-type(1) {
+		display: none;
+	}
+	
+	nav ul {
+		display: flex;
+		padding: 0;
+		gap: 2em;
+		align-items: center;
+	}
+	
+	nav ul h1 {
+		display: none;
+	}
+	
+	nav li {
+		margin: 0;
+	}
+	
+	nav li a {
+		color: #A9192B;
+		border: none;
+		padding: 0.5em 1em;
+		border-radius: 5px;
+		transition: background-color 0.3s;
+	}
+	
+	nav li a:hover {
+		background-color: #A9192B;
+		color: white;
+		padding-left: 1em;
+	}
+}
+
+/******************/
+/* MAIN CONTENT */
+/******************/
+main {
+	padding: 2em;
+}
+
+main section:nth-of-type(1) h1 {
+	font-size: 3em;
+	text-align: center;
+	color: #A9192B;
+	margin-bottom: 2em;
+}
+
+footer {
+	background-color: #A9192B;
+	padding: 2em;
+	margin-top: 4em;
+}

@@ -56,8 +56,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Lijst met je bevindingen die in de test naar voren kwamen, als eerste ik heb de toegankelijk test alleen gedaan omdat ik er niet bij was bij de laaste werkgroep.:
 
+-
 </details>
 
 
@@ -87,11 +88,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Freddy         | Amber              | Tin          | Aminata                   |
+  | ---            | ---                | ---          | ---                       |
+  | dit bespreken  |  Wil graag hebben  | en ik dit    | wil het over  breakdown   |
+  | en dat ook nog | over breakdownsche | nog een punt | schetsen en hamburgermenu |
+  | ...            | -sten              | ...          |                           |
 
 
   ### Verslag van meeting
