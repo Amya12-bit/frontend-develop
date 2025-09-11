@@ -56,9 +56,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen, als eerste ik heb de toegankelijk test alleen gedaan omdat ik er niet bij was bij de laaste werkgroep.:
+Lijst met je bevindingen die in de test naar voren kwamen, als eerste ik heb de toegankelijk test alleen gedaan omdat ik er niet bij was bij de laaste werkgroep:
 
--
+-De website heeft specifieke secties voor bezoekers met een beperking, zoals duidelijk informatie over rolstoeltoegankelijkheid.
+-Website heeft verschillende opties of talen (Nederlands, Engels)
+-Website is kan zich laten zien in verschillende apparaten
+
+Maar dat was niet de toegankelijke test. Wat ik heb opgemerkt is dat de website niet alle elementen waren interactie met het toetsenbord + de voice-over. Ik heb opgemerkt dat ik bepaalde functies niet kon bereiken en kwam op dezelfde plek terug. En de focus indicators zijn niet altijd duidelijk zichtbaar, daardoor weten de toetsenbord gebruikers niet welk element actief is.
+
+
+
 </details>
 
 
@@ -88,11 +95,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Freddy         | Amber              | Tin          | Aminata                   |
-  | ---            | ---                | ---          | ---                       |
-  | dit bespreken  |  Wil graag hebben  | en ik dit    | wil het over  breakdown   |
-  | en dat ook nog | over breakdownsche | nog een punt | schetsen en hamburgermenu |
-  | ...            | -sten              | ...          |                           |
+  | Freddy         | Amber              | Tin               | Aminata                   |
+  | ---            | ---                | ---               | ---                       |
+  | Names of css   |  Wil graag hebben  | Wil graag hebben  | wil het over  breakdown   |
+  | files checken  | over breakdownsche | over breakdownsche| schetsen en hamburgermenu |
+  |                | -sten              | -sten             |                           |
 
 
   ### Verslag van meeting
